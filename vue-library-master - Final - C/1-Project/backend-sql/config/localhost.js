@@ -45,15 +45,15 @@ module.exports = {
      operatorsAliases: false,
    }, */
 
-
+    //search on web how to use google email as a smtp
   email: {
     comment: 'https://nodemailer.com',
-    from: 'kylejashtintc16@gmail.com',
+    from: '', //add your email here
     host: 'smtp.gmail.com',
-    port: 587,
+    port: 1, //add your port number here unique (3 numbers usually i think)
     auth: {
-      user: 'kylejashtintc16@gmail.com',
-      pass: 'mlsg xsls vsmd aatu',
+      user: '', //email again
+      pass: '', //unique pass key
     },
   },
 
